@@ -1,0 +1,18 @@
+ul{
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+li a{
+  text-decoration: none;
+}
+
+li a:focus, li a:hover{
+  cursor: pointer;
+  color: white;
+}

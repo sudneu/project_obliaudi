@@ -1,0 +1,49 @@
+.modal{
+	display: flex;
+	justify-content: center;
+}
+
+.modal-body{
+  position: absolute;
+  top : 20vh;
+  border-radius: .5em;
+  box-shadow :2px 2px 8px rgba(255, 0, 0, 0.5);
+  background: green;
+  display:flex;
+  flex-direction: column;
+  width: auto;
+  z-index: 7;
+}
+
+.modal-header{
+  background: teal;
+  color: #ffebeb;
+  height: auto;
+  padding: 0.5em 1.1em;
+}
+
+.modal-footer {
+  background: #4caf50;
+  padding:1.1em;
+  display:flex;
+  justify-content: space-between;;
+}
+
+/* transition classes */
+.modal-enter{
+  opacity: 0;
+}
+
+.modal-enter-active{
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+
+.modal-exit{
+  opacity: 1;
+}
+
+.modal-exit-active{
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}

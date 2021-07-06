@@ -1,0 +1,10 @@
+.ebook-body{
+  border-radius: .5em;
+  box-shadow :2px 2px 8px rgba(255, 0, 0, 0.5);
+  background: green;
+  padding: 1em;
+  width: auto;
+  /* max-width: 50em; */
+}
+
+

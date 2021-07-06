@@ -1,0 +1,19 @@
+.search-field{
+  display:flex;
+  justify-content: center;
+  margin: 0.6em 0;
+  background: teal;
+}
+
+.search-field Input{
+  border-radius: 2px;
+}
+
+.search-field button{
+  border:none;
+  background: #cabe15;
+  color: white;
+  padding: 3px 8px;
+  margin: 0.5em 1em;
+  border-radius: 2px;
+}

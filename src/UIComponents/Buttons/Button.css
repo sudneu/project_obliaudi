@@ -1,0 +1,46 @@
+.btn{
+    padding: 3px 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn-success{
+    color: white;
+    background: green;
+}
+
+.btn-normal{
+    color: grey;
+    background: lightblue;
+}
+
+.btn-success:hover, .btn-success:focus{
+    border: 1px solid #4df153;  
+    cursor: pointer; 
+}
+
+.btn-success:focus{
+    margin-top: 1px; 
+    background:#4df153
+}
+
+.btn-normal:hover, .btn-normal:focus{
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+
+.btn-card{
+    padding: 3px 5px;
+    border: none;
+    background-color: gray;
+    color: blue;
+  }
+  
+ .btn-card:hover, .btn-card:active{
+    cursor: pointer;
+    background: white;
+    color: green
+  }
+  
